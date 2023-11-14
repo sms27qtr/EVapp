@@ -1,0 +1,47 @@
+.solution {
+  padding: 20px 60px;
+}
+
+.solHeader h1 {
+  font-weight: 600;
+  color: #fff;
+  text-decoration-line: underline;
+  text-decoration-color: #fff;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.solHeader p {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.solContainer {
+    border: 1px solid #14786a;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+    animation: fadeIn 1s ease forwards;
+}
+.solContainer h2 {
+    color: #14786a;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.solContainer p {
+    color: #333333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

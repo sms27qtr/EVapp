@@ -1,0 +1,128 @@
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.row .navbar .container-fluid {
+  background-color: rgb(29, 80, 96) !important;
+  border-radius: 15px;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 400;
+}
+
+.navbar a:hover {
+  color: white !important;
+}
+
+.nav-link::after {
+  content: "";
+  background: white;
+  height: 2px;
+  width: 0px;
+  display: block;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 40px;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 5px;
+  right: 0;
+  z-index: 100; 
+}
+
+.navbar {
+  background-color: transparent !important;
+  padding-top: 5px; 
+}
+
+.content {
+  padding-top: 60px; 
+} */
+
+/* ____________________________________________________________________________ */
+
+.head {
+  padding: 5px 0;
+  color: #0e574b;
+}
+.social {
+  padding: 15px 0;
+}
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;     
+}
+.head .icon {
+  margin-left: 10px;
+}
+/* ----------------------header------------------------- */
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+.navbar li {
+  margin-right: 40px;
+  align-items: center;
+  padding-top: 5px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a {
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.navbar ul li a:hover {
+  color: #0e574b;
+}
+
+.start a{
+  background-color: #1eb2a6;
+  padding: 21px 70px;
+  color: #fff;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+  font-weight: 800;
+  border-radius: 5px;
+  transition: 0.3s;
+
+}
+
+.start a:hover {
+  background-color: #76ada9;
+  color: #fff;
+}

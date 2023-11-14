@@ -1,0 +1,103 @@
+.resource {
+  padding: 30px 60px;
+}
+
+.resourceHeader h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.resourceHeader p {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card h2 {
+  color: rgb(29, 80, 96);
+}
+
+/* CSS for the container */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Adjust the column width and min-width as needed */
+  grid-gap: 20px; /* Add space between cards */
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* CSS for each card */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Set card width to 100% to fill the grid cell */
+  text-align: center; /* Center align text content */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Set a column layout to stack content vertically */
+}
+.card h2 {
+  font-size: 20px;
+}
+.card p {
+  font-size: 16px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 150px; /* Set a fixed height for all images */
+}
+
+/* Button styles (adjust as needed) */
+.card button {
+  padding: 10px 20px;
+  background-color: rgb(10, 144, 154);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+.card button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card button:hover {
+  background-color: rgb(19, 96, 102);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,149 @@
+.statistic {
+  padding: 10px 60px;
+  margin: 0;
+}
+
+.statistic div {
+  margin: 20px 0;
+  padding: 5px 10px;
+}
+
+.statHeader h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.statHeader p {
+  color: #333333;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.statisticContainer {
+  border: 1px solid #14786a;
+  border-radius: 5px;
+  background-color: #fff;
+  animation: fadeIn 1s ease forwards;
+}
+.statisticContainer div {
+  padding: 0;
+  margin: 0;
+}
+.statisticContainer h2 {
+  color: #14786a;
+  font-size: 30px;
+  padding-top: -10px;
+  text-decoration-line: underline;
+  text-decoration-color: #14786a;
+}
+.statisticContainer p {
+  font-size: 16px;
+}
+.statisticContainer h2,
+p {
+  padding: 5px;
+}
+.statisticContainer ul li {
+  color: black;
+}
+.stt {
+  display: flex;
+}
+
+.tm {
+  display: flex;
+  margin-right: 20px;
+}
+
+.si {
+  display: flex;
+  margin-right: 20px;
+}
+
+.energyIMG {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.statistic .statisticContainer img {
+  width: 300px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.statisticContainer img:hover {
+  transform: scale(1.1);
+}
+
+.colorH {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-box {
+  display: flex;
+  text-align: center;
+}
+
+.color-box > div {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+.color1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+.color2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(55, 55, 244);
+  margin-right: 5px;
+  border: 1px solid black;
+}
+.color3 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(82, 245, 147);
+  margin-right: 5px;
+  border: 1px solid black;
+}
+.color4 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(12, 146, 110);
+  margin-right: 5px;
+  border: 1px solid black;
+}
+.color5 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(241, 247, 67);
+  margin-right: 5px;
+  border: 1px solid black;
+}
